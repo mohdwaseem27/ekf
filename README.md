@@ -26,7 +26,7 @@ The following dependencies are required to run the code:
 
    ```
    cd <path_to_your_ros_workspace>/src
-   git clone <repository_url>
+   git clone https://github.com/mohdwaseem27/ekf.git
    ```
 
 4. Build and source the ROS workspace:
@@ -50,9 +50,9 @@ The following dependencies are required to run the code:
    ```
    rosrun ekf ekf.py
    ```
-4. Subscribe to the /odom_filtered topic to receive the filtered odometry data.
+4. Subscribe to the `/odom_filtered` topic to receive the filtered odometry data.
 
-5. Publish the odometry and IMU messages to the respective topics (/odom_noisy and /sk/imu) for the EKF to process.
+5. Publish the odometry and IMU messages to the respective topics (`/odom_noisy` and `/sk/imu`) for the EKF to process.
 
 
 ## Visualizing Ground Truth and Filtered Odometry
