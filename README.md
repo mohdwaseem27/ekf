@@ -1,6 +1,6 @@
 # Extended Kalman Filter (EKF) for state estimation
 
-This repository contains an implementation of an Extended Kalman Filter (EKF) for state estimation using odometry and IMU measurements. The EKF estimates the position and velocity of a mobile robot in a 2D space.
+This package contains an implementation of an Extended Kalman Filter (EKF) for state estimation using odometry and IMU measurements. The EKF estimates the position and velocity of a mobile robot in a 2D space.
 
 ## Dependencies
 
@@ -22,7 +22,7 @@ The following dependencies are required to run the code:
    ```
 
 
-3. Clone this repository to your ROS workspace:
+3. Clone this package to your ROS workspace:
 
    ```
    cd <path_to_your_ros_workspace>/src
